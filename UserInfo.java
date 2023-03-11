@@ -1,8 +1,12 @@
 
 /**From Developer Two*/
 
+
 public class User {
-    
+    constructor UserInfo(String name, String email){
+        this.name = name;
+        this.email = email;
+    }
     private String name;
     private String email;
     private String roll;
